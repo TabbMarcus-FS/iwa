@@ -1,0 +1,55 @@
+h1 {
+  text-align: center;
+  color: darkgoldenrod;
+  box-sizing: border-box;
+  background-color: lightseagreen;
+  margin: 1.25rem auto;
+  width: 18.75rem;
+  box-shadow: 15px 15px blueviolet;
+  text-shadow: 5px 5px black;
+  border-radius: 1rem;
+  padding: 1rem;
+  border: 4px solid;
+}
+
+h2 {
+  color: darkgoldenrod;
+}
+
+body {
+  font-size: 1.25rem;
+  font-family: "Edu NSW ACT Hand Pre", cursive;
+  font-weight: normal;
+  font-style: normal;
+  color: brown;
+}
+
+#wrapper {
+  width: 90%;
+  border: 4px solid blueviolet;
+  margin: auto;
+}
+
+a {
+  text-decoration: none;
+  color: orange;
+}
+
+a:hover {
+  color: pink;
+}
+
+ol {
+  list-style: upper-alpha;
+  color: aqua;
+  list-style-type: disc;
+}
+
+ul {
+  list-style: none;
+}
+
+img {
+  display: block;
+  margin: auto;
+}

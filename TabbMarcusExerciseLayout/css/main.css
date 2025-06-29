@@ -1,0 +1,148 @@
+/* Alternative CSS box model  */
+
+* {
+  box-sizing: border-box;
+}
+
+/* General Styles */
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.5rem;
+  margin: 0rem;
+  text-align: left;
+  line-height: normal;
+  text-shadow: none;
+  background-color: dimgrey;
+  border: 4px solid #e60a3e;
+}
+
+#wrapper {
+  width: 90%;
+  border: 5px solid #e60a3e;
+  margin: auto;
+  padding: 1.25rem;
+}
+
+h1 {
+  text-align: center;
+  color: #e60a3e;
+  background-color: grey;
+  width: 18.75rem;
+  padding: 1.25rem;
+  border: 5px solid firebrick;
+  margin: 1.25rem auto;
+  box-shadow: 15px 15px black;
+  text-shadow: 5px 5px 5px black;
+  border-radius: 1rem;
+}
+
+h2 {
+  font-size: 2rem;
+
+  font-family: "Kalnia", serif;
+  font-weight: 700;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+  color: whitesmoke;
+  background-color: grey;
+}
+
+p {
+  line-height: 1.25;
+}
+
+/* Link Styles */
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  color: #e60a3e;
+}
+
+ul {
+  list-style: none;
+  border: 4px solid goldenrod;
+  padding: 0rem;
+  display: flex;
+  /* flex-direction: row; */
+  justify-content: center;
+  align-items: center;
+  /* gap: 4rem; */
+  /* flex-wrap: wrap; */
+  flex-flow: row wrap;
+  /* I blocked off what I think I didn't need to leave and left what I thought was needed for the CSS assignment. */
+}
+
+img {
+  display: block;
+  margin: auto;
+}
+
+li {
+  border: 2px solid #e60a3e;
+  flex: 1;
+}
+
+/* I wanted to edit the paragraphs but I wasn't sure what I could do different with them so I just let them be. */
+
+/* Forms Styles */
+form {
+  border: 2px solid #e60a3e;
+  padding: 1rem;
+  background-color: #e60a3e;
+}
+
+form div {
+  margin-bottom: 1rem;
+}
+
+label {
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+input,
+textarea {
+  display: block;
+  width: 100%;
+  padding: 0.375rem 0.75rem;
+  border-radius: 0.25rem;
+  font-size: 100%;
+  border: none;
+}
+
+input[type="checkbox"] {
+  display: inline-block;
+  width: 1rem;
+  height: 1rem;
+}
+
+#form-check > label {
+  display: inline-block;
+}
+
+input[type="number"] {
+  width: 15%;
+}
+
+textarea {
+  font-family: inherit;
+}
+
+form > button {
+  background-color: black;
+  color: #e60a3e;
+  border: none;
+  padding: 0.375rem 2rem;
+  border-radius: 0.25rem;
+  font-size: 100%;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: lightgrey;
+}
